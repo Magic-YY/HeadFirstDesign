@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3692D5B255D573F003FB210 /* Goose.m in Sources */ = {isa = PBXBuildFile; fileRef = D3692D5A255D573F003FB210 /* Goose.m */; };
+		D3692D64255D57D4003FB210 /* GooseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3692D63255D57D4003FB210 /* GooseAdapter.m */; };
+		D3692D6A255D5B01003FB210 /* QuackCopunter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3692D69255D5B01003FB210 /* QuackCopunter.m */; };
+		D3692D72255E21F4003FB210 /* DuckFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D3692D71255E21F4003FB210 /* DuckFactory.m */; };
+		D3692D77255E2569003FB210 /* CountingDuckFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D3692D76255E2569003FB210 /* CountingDuckFactory.m */; };
+		D3CF578625524CC000F390F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF578525524CC000F390F1 /* AppDelegate.m */; };
+		D3CF578925524CC000F390F1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF578825524CC000F390F1 /* SceneDelegate.m */; };
+		D3CF578C25524CC000F390F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF578B25524CC000F390F1 /* ViewController.m */; };
+		D3CF578F25524CC000F390F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CF578D25524CC000F390F1 /* Main.storyboard */; };
+		D3CF579125524CC200F390F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CF579025524CC200F390F1 /* Assets.xcassets */; };
+		D3CF579425524CC200F390F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CF579225524CC200F390F1 /* LaunchScreen.storyboard */; };
+		D3CF579725524CC200F390F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF579625524CC200F390F1 /* main.m */; };
+		D3CF57A425524E1300F390F1 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF57A325524E1300F390F1 /* MallardDuck.m */; };
+		D3CF57A925524E5D00F390F1 /* RedheadDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF57A825524E5D00F390F1 /* RedheadDuck.m */; };
+		D3CF57AD25524EA700F390F1 /* DuckCall.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF57AC25524EA700F390F1 /* DuckCall.m */; };
+		D3CF57B125524ED800F390F1 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF57B025524ED800F390F1 /* RubberDuck.m */; };
+		D3CF57BB2552CA5100F390F1 /* DuckSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF57BA2552CA5100F390F1 /* DuckSimulator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3692D59255D573F003FB210 /* Goose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Goose.h; sourceTree = "<group>"; };
+		D3692D5A255D573F003FB210 /* Goose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goose.m; sourceTree = "<group>"; };
+		D3692D62255D57D4003FB210 /* GooseAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooseAdapter.h; sourceTree = "<group>"; };
+		D3692D63255D57D4003FB210 /* GooseAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooseAdapter.m; sourceTree = "<group>"; };
+		D3692D68255D5B01003FB210 /* QuackCopunter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackCopunter.h; sourceTree = "<group>"; };
+		D3692D69255D5B01003FB210 /* QuackCopunter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuackCopunter.m; sourceTree = "<group>"; };
+		D3692D6E255D5E3C003FB210 /* AbstractDuckFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractDuckFactoryProtocol.h; sourceTree = "<group>"; };
+		D3692D70255E21F4003FB210 /* DuckFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckFactory.h; sourceTree = "<group>"; };
+		D3692D71255E21F4003FB210 /* DuckFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckFactory.m; sourceTree = "<group>"; };
+		D3692D75255E2569003FB210 /* CountingDuckFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountingDuckFactory.h; sourceTree = "<group>"; };
+		D3692D76255E2569003FB210 /* CountingDuckFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountingDuckFactory.m; sourceTree = "<group>"; };
+		D3CF578125524CC000F390F1 /* Chapter12-复合模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter12-复合模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CF578425524CC000F390F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3CF578525524CC000F390F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3CF578725524CC000F390F1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D3CF578825524CC000F390F1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D3CF578A25524CC000F390F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3CF578B25524CC000F390F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3CF578E25524CC000F390F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3CF579025524CC200F390F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3CF579325524CC200F390F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3CF579525524CC200F390F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CF579625524CC200F390F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3CF57A025524DD400F390F1 /* QuackableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackableProtocol.h; sourceTree = "<group>"; };
+		D3CF57A225524E1300F390F1 /* MallardDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		D3CF57A325524E1300F390F1 /* MallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		D3CF57A725524E5D00F390F1 /* RedheadDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedheadDuck.h; sourceTree = "<group>"; };
+		D3CF57A825524E5D00F390F1 /* RedheadDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedheadDuck.m; sourceTree = "<group>"; };
+		D3CF57AB25524EA700F390F1 /* DuckCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckCall.h; sourceTree = "<group>"; };
+		D3CF57AC25524EA700F390F1 /* DuckCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckCall.m; sourceTree = "<group>"; };
+		D3CF57AF25524ED800F390F1 /* RubberDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
+		D3CF57B025524ED800F390F1 /* RubberDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
+		D3CF57B92552CA5100F390F1 /* DuckSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckSimulator.h; sourceTree = "<group>"; };
+		D3CF57BA2552CA5100F390F1 /* DuckSimulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckSimulator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CF577E25524CC000F390F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3692D5F255D5770003FB210 /* 鹅适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				D3692D62255D57D4003FB210 /* GooseAdapter.h */,
+				D3692D63255D57D4003FB210 /* GooseAdapter.m */,
+			);
+			path = "鹅适配器";
+			sourceTree = "<group>";
+		};
+		D3692D60255D5780003FB210 /* 鸭子 */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF57A225524E1300F390F1 /* MallardDuck.h */,
+				D3CF57A325524E1300F390F1 /* MallardDuck.m */,
+				D3CF57A725524E5D00F390F1 /* RedheadDuck.h */,
+				D3CF57A825524E5D00F390F1 /* RedheadDuck.m */,
+				D3CF57AB25524EA700F390F1 /* DuckCall.h */,
+				D3CF57AC25524EA700F390F1 /* DuckCall.m */,
+				D3CF57AF25524ED800F390F1 /* RubberDuck.h */,
+				D3CF57B025524ED800F390F1 /* RubberDuck.m */,
+			);
+			path = "鸭子";
+			sourceTree = "<group>";
+		};
+		D3692D61255D5799003FB210 /* 鹅 */ = {
+			isa = PBXGroup;
+			children = (
+				D3692D59255D573F003FB210 /* Goose.h */,
+				D3692D5A255D573F003FB210 /* Goose.m */,
+			);
+			path = "鹅";
+			sourceTree = "<group>";
+		};
+		D3692D67255D5AF0003FB210 /* 装饰者 */ = {
+			isa = PBXGroup;
+			children = (
+				D3692D68255D5B01003FB210 /* QuackCopunter.h */,
+				D3692D69255D5B01003FB210 /* QuackCopunter.m */,
+			);
+			path = "装饰者";
+			sourceTree = "<group>";
+		};
+		D3692D6D255D5E10003FB210 /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				D3692D74255E23C3003FB210 /* 协议 */,
+				D3692D70255E21F4003FB210 /* DuckFactory.h */,
+				D3692D71255E21F4003FB210 /* DuckFactory.m */,
+				D3692D75255E2569003FB210 /* CountingDuckFactory.h */,
+				D3692D76255E2569003FB210 /* CountingDuckFactory.m */,
+			);
+			path = "抽象工厂";
+			sourceTree = "<group>";
+		};
+		D3692D74255E23C3003FB210 /* 协议 */ = {
+			isa = PBXGroup;
+			children = (
+				D3692D6E255D5E3C003FB210 /* AbstractDuckFactoryProtocol.h */,
+			);
+			path = "协议";
+			sourceTree = "<group>";
+		};
+		D3CF577825524CC000F390F1 = {
+			isa = PBXGroup;
+			children = (
+				D3CF578325524CC000F390F1 /* Chapter12-复合模式 */,
+				D3CF578225524CC000F390F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CF578225524CC000F390F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF578125524CC000F390F1 /* Chapter12-复合模式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CF578325524CC000F390F1 /* Chapter12-复合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF57BD2552CB0500F390F1 /* Manager */,
+				D3CF57A125524DF800F390F1 /* 类 */,
+				D3CF579E25524D2500F390F1 /* 接口定义 */,
+				D3CF578425524CC000F390F1 /* AppDelegate.h */,
+				D3CF578525524CC000F390F1 /* AppDelegate.m */,
+				D3CF578725524CC000F390F1 /* SceneDelegate.h */,
+				D3CF578825524CC000F390F1 /* SceneDelegate.m */,
+				D3CF578A25524CC000F390F1 /* ViewController.h */,
+				D3CF578B25524CC000F390F1 /* ViewController.m */,
+				D3CF578D25524CC000F390F1 /* Main.storyboard */,
+				D3CF579025524CC200F390F1 /* Assets.xcassets */,
+				D3CF579225524CC200F390F1 /* LaunchScreen.storyboard */,
+				D3CF579525524CC200F390F1 /* Info.plist */,
+				D3CF579625524CC200F390F1 /* main.m */,
+			);
+			path = "Chapter12-复合模式";
+			sourceTree = "<group>";
+		};
+		D3CF579E25524D2500F390F1 /* 接口定义 */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF57A025524DD400F390F1 /* QuackableProtocol.h */,
+			);
+			path = "接口定义";
+			sourceTree = "<group>";
+		};
+		D3CF57A125524DF800F390F1 /* 类 */ = {
+			isa = PBXGroup;
+			children = (
+				D3692D6D255D5E10003FB210 /* 抽象工厂 */,
+				D3692D67255D5AF0003FB210 /* 装饰者 */,
+				D3692D5F255D5770003FB210 /* 鹅适配器 */,
+				D3692D61255D5799003FB210 /* 鹅 */,
+				D3692D60255D5780003FB210 /* 鸭子 */,
+			);
+			path = "类";
+			sourceTree = "<group>";
+		};
+		D3CF57BD2552CB0500F390F1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF57B92552CA5100F390F1 /* DuckSimulator.h */,
+				D3CF57BA2552CA5100F390F1 /* DuckSimulator.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CF578025524CC000F390F1 /* Chapter12-复合模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CF579A25524CC200F390F1 /* Build configuration list for PBXNativeTarget "Chapter12-复合模式" */;
+			buildPhases = (
+				D3CF577D25524CC000F390F1 /* Sources */,
+				D3CF577E25524CC000F390F1 /* Frameworks */,
+				D3CF577F25524CC000F390F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chapter12-复合模式";
+			productName = "Chapter12-复合模式";
+			productReference = D3CF578125524CC000F390F1 /* Chapter12-复合模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CF577925524CC000F390F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					D3CF578025524CC000F390F1 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = D3CF577C25524CC000F390F1 /* Build configuration list for PBXProject "Chapter12-复合模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3CF577825524CC000F390F1;
+			productRefGroup = D3CF578225524CC000F390F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CF578025524CC000F390F1 /* Chapter12-复合模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CF577F25524CC000F390F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CF579425524CC200F390F1 /* LaunchScreen.storyboard in Resources */,
+				D3CF579125524CC200F390F1 /* Assets.xcassets in Resources */,
+				D3CF578F25524CC000F390F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CF577D25524CC000F390F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CF57B125524ED800F390F1 /* RubberDuck.m in Sources */,
+				D3CF57A925524E5D00F390F1 /* RedheadDuck.m in Sources */,
+				D3CF57AD25524EA700F390F1 /* DuckCall.m in Sources */,
+				D3692D6A255D5B01003FB210 /* QuackCopunter.m in Sources */,
+				D3692D5B255D573F003FB210 /* Goose.m in Sources */,
+				D3CF578C25524CC000F390F1 /* ViewController.m in Sources */,
+				D3692D64255D57D4003FB210 /* GooseAdapter.m in Sources */,
+				D3692D72255E21F4003FB210 /* DuckFactory.m in Sources */,
+				D3CF57A425524E1300F390F1 /* MallardDuck.m in Sources */,
+				D3CF578625524CC000F390F1 /* AppDelegate.m in Sources */,
+				D3692D77255E2569003FB210 /* CountingDuckFactory.m in Sources */,
+				D3CF579725524CC200F390F1 /* main.m in Sources */,
+				D3CF57BB2552CA5100F390F1 /* DuckSimulator.m in Sources */,
+				D3CF578925524CC000F390F1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3CF578D25524CC000F390F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CF578E25524CC000F390F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3CF579225524CC200F390F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CF579325524CC200F390F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CF579825524CC200F390F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3CF579925524CC200F390F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3CF579B25524CC200F390F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chapter12-复合模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.animation.test.Chapter12-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3CF579C25524CC200F390F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chapter12-复合模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.animation.test.Chapter12-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CF577C25524CC000F390F1 /* Build configuration list for PBXProject "Chapter12-复合模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CF579825524CC200F390F1 /* Debug */,
+				D3CF579925524CC200F390F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CF579A25524CC200F390F1 /* Build configuration list for PBXNativeTarget "Chapter12-复合模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CF579B25524CC200F390F1 /* Debug */,
+				D3CF579C25524CC200F390F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3CF577925524CC000F390F1 /* Project object */;
+}
